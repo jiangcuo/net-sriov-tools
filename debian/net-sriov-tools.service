@@ -1,0 +1,16 @@
+[Unit]
+Description=Configure Network SR-IOV Virtual Functions
+DefaultDependencies=no
+Before=network-pre.target network.target network-online.target
+After=local-fs.target systemd-sysctl.service systemd-modules-load.service systemd-udev.service
+Wants=systemd-udev.service systemd-modules-load.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+SyslogIdentifier=networking
+TimeoutStopSec=30s
+ExecStart=/usr/sbin/net-sriov-tools load
+
+[Install]
+WantedBy=multi-user.target

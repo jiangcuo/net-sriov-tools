@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pve-sriov-tools
+Source: https://gitea.lierfang.com/pxcloud/pve-sriov-tools
+
+Files: *
+Copyright: 2025 Lierfang Support Team <itsupport@lierfang.com>
+License: AGPL-3.0-or-later

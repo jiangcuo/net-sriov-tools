@@ -1,0 +1,20 @@
+# net-sriov-tools
+
+```
+PXVIRT SR-IOV Network Interface Card Manager
+
+Usage: net-sriov-tools [COMMAND]
+
+Commands:
+  list    List SR-IOV capable network interfaces
+  create  Create SR-IOV devices for a network interface
+  save    Save the current configuration of all SR-IOV capable network interfaces
+  load    Load SR-IOV configurations from /etc/network/sriov.d and apply them
+  help    Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help     Print help
+  -V, --version  Print version
+```
+
+Remember save conf.
