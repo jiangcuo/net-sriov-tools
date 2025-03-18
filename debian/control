@@ -10,7 +10,8 @@ Build-Depends: debhelper (>= 13),
          rustc,
          librust-serde-json-dev,
          librust-prettytable-rs-dev,
-         librust-clap-dev
+         librust-clap-dev,
+         librust-csv-dev
 
 Package: net-sriov-tools
 Architecture: any
